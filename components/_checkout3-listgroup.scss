@@ -1,0 +1,12 @@
+.ckeckout3__list__item{
+    font-size: 20px;
+    color: theme-color("bgGreen");
+    background-color: theme-color("darkGreen");
+}
+.ckeckout3__list__item:hover{
+    color: theme-color("bgGreen");
+}
+.ckeckout3__list__item.active{
+    color: theme-color("darkGreen");
+    background-color: theme-color("bgGreen");
+}
