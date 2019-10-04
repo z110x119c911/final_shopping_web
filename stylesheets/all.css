@@ -11518,4 +11518,27 @@ a.close.disabled {
   color: #3F5D45;
   background-color: #EAF0ED; }
 
+.write_vertical {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl; }
+
+@media (min-width: 768px) {
+  .write-md-vertical {
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl; } }
+
+.write_lineheight {
+  line-height: 36px; }
+
+.write_break_img {
+  margin-top: -24px;
+  margin-bottom: -24px; }
+
+.write_md_img {
+  min-height: 250px;
+  margin-top: -15px;
+  margin-bottom: 15px; }
+
 /*# sourceMappingURL=all.css.map */
